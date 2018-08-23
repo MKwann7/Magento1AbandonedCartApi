@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<config>
+    <api2>
+        <resource_groups>
+            <abandoned_cart translate="title" module="CustomExtensions_AbandonedCart">
+                <title>Abandoned Cart</title>
+                <sort_order>10</sort_order>
+            </abandoned_cart>
+        </resource_groups>
+        <resources>
+            <abandoned_cart translate="title" module="CustomExtensions_AbandonedCart">
+                <group>abandonedcart</group>
+                <model>abandonedcart/api2_restapi</model>
+                <title>Abandoned Cart</title>
+                <sort_order>10</sort_order>
+                <privileges>
+                    <admin>
+                        <retrieve>1</retrieve>
+                        <delete>1</delete>
+                    </admin>
+                </privileges>
+                <routes>
+                    <route>
+                        <route>/abandonedcart/:id</route>
+                        <action_type>entity</action_type>
+                    </route>
+                    <route>
+                        <route>/abandonedcart</route>
+                        <action_type>collection</action_type>
+                    </route>
+                </routes>
+                <exclude_attributes>
+                    <admin>
+                        <write>
+                            <entity_id>1</entity_id>
+                        </write>
+                    </admin>
+                </exclude_attributes>
+                <attributes translate="entity_id store_id created_at updated_at converted_at is_active is_virtual is_multi_shipping items_count items_qty orig_order_id store_to_base_rate store_to_quote_rate base_currency_code store_currency_code quote_currency_code grand_total base_grand_total checkout_method customer_id customer_tax_class_id customer_group_id customer_email customer_prefix customer_firstname customer_middlename customer_lastname customer_suffix customer_dob customer_note customer_note_notify customer_is_guest remote_ip applied_rule_ids reserved_order_id password_hash coupon_code global_currency_code base_to_global_rate base_to_quote_rate customer_taxvat customer_gender subtotal base_subtotal subtotal_with_discount base_subtotal_with_discount is_changed trigger_recollect gift_message_id is_persistent customer_balance_amount_used base_customer_bal_amount_used use_customer_balance gift_cards gift_cards_amount base_gift_cards_amount gift_cards_amount_used base_gift_cards_amount_used" module="api2">
+                    <entity_id>Entity Id</entity_id>
+                    <store_id>Store Id</store_id>
+                    <created_at>Created At</created_at>
+                    <updated_at>Updated At</updated_at>
+                    <converted_at>Converted At</converted_at>
+                    <is_active>Is Active</is_active>
+                    <is_virtual>Is Virtual</is_virtual>
+                    <is_multi_shipping>Is Multi Shipping</is_multi_shipping>
+                    <items_count>Items Count</items_count>
+                    <items_qty>Items Quantity</items_qty>
+                    <orig_order_id>Original Order Id</orig_order_id>
+                    <store_to_base_rate>Store To Base Rate</store_to_base_rate>
+                    <store_to_quote_rate>Store To Quote Rate</store_to_quote_rate>
+                    <base_currency_code>Base Currency Code</base_currency_code>
+                    <store_currency_code>Store Currency Code</store_currency_code>
+                    <quote_currency_code>Quote Currency Code</quote_currency_code>
+                    <grand_total>Original Order Id</grand_total>
+                    <base_grand_total>Original Order Id</base_grand_total>
+                    <checkout_method>Original Order Id</checkout_method>
+                    <customer_id>Original Order Id</customer_id>
+                    <customer_tax_class_id>Original Order Id</customer_tax_class_id>
+                    <customer_group_id>Original Order Id</customer_group_id>
+                    <customer_email>Original Order Id</customer_email>
+                    <customer_prefix>Original Order Id</customer_prefix>
+                    <customer_firstname>Original Order Id</customer_firstname>
+                    <customer_middlename>Original Order Id</customer_middlename>
+                    <customer_lastname>Original Order Id</customer_lastname>
+                    <customer_suffix>Original Order Id</customer_suffix>
+                    <customer_dob>Original Order Id</customer_dob>
+                    <customer_note>Original Order Id</customer_note>
+                    <customer_note_notify>Original Order Id</customer_note_notify>
+                    <customer_is_guest>Original Order Id</customer_is_guest>
+                    <remote_ip>Original Order Id</remote_ip>
+                    <applied_rule_ids>Original Order Id</applied_rule_ids>
+                    <reserved_order_id>Original Order Id</reserved_order_id>
+                    <password_hash>Original Order Id</password_hash>
+                    <coupon_code>Original Order Id</coupon_code>
+                    <global_currency_code>Original Order Id</global_currency_code>
+                    <base_to_global_rate>Original Order Id</base_to_global_rate>
+                    <base_to_quote_rate>Original Order Id</base_to_quote_rate>
+                    <customer_taxvat>Original Order Id</customer_taxvat>
+                    <customer_gender>Original Order Id</customer_gender>
+                    <subtotal>Original Order Id</subtotal>
+                    <base_subtotal>Original Order Id</base_subtotal>
+                    <subtotal_with_discount>Original Order Id</subtotal_with_discount>
+                    <base_subtotal_with_discount>Original Order Id</base_subtotal_with_discount>
+                    <is_changed>Original Order Id</is_changed>
+                    <trigger_recollect>Original Order Id</trigger_recollect>
+                    <ext_shipping_info>Original Order Id</ext_shipping_info>
+                    <gift_message_id>Original Order Id</gift_message_id>
+                    <is_persistent>Original Order Id</is_persistent>
+                    <customer_balance_amount_used>Original Order Id</customer_balance_amount_used>
+                    <base_customer_bal_amount_used>Original Order Id</base_customer_bal_amount_used>
+                    <use_customer_balance>Original Order Id</use_customer_balance>
+                    <gift_cards>Original Order Id</gift_cards>
+                    <gift_cards_amount>Original Order Id</gift_cards_amount>
+                    <base_gift_cards_amount>Original Order Id</base_gift_cards_amount>
+                    <gift_cards_amount_used>Original Order Id</gift_cards_amount_used>
+                    <base_gift_cards_amount_used>Original Order Id</base_gift_cards_amount_used>
+                    <gw_id>Original Order Id</gw_id>
+                    <gw_allow_gift_receipt>Original Order Id</gw_allow_gift_receipt>
+                    <gw_add_card>Original Order Id</gw_add_card>
+                    <gw_base_price>Original Order Id</gw_base_price>
+                    <gw_price>Original Order Id</gw_price>
+                    <gw_items_base_price>Original Order Id</gw_items_base_price>
+                    <gw_items_price>Original Order Id</gw_items_price>
+                    <gw_card_base_price>Original Order Id</gw_card_base_price>
+                    <gw_card_price>Original Order Id</gw_card_price>
+                    <gw_base_tax_amount>Original Order Id</gw_base_tax_amount>
+                    <gw_tax_amount>Original Order Id</gw_tax_amount>
+                    <gw_items_base_tax_amount>Original Order Id</gw_items_base_tax_amount>
+                    <gw_items_tax_amount>Original Order Id</gw_items_tax_amount>
+                    <gw_card_base_tax_amount>Original Order Id</gw_card_base_tax_amount>
+                    <gw_card_tax_amount>Original Order Id</gw_card_tax_amount>
+                    <use_reward_points>Original Order Id</use_reward_points>
+                    <reward_points_balance>Original Order Id</reward_points_balance>
+                    <base_reward_currency_amount>Original Order Id</base_reward_currency_amount>
+                    <reward_currency_amount>Original Order Id</reward_currency_amount>
+                </attributes>
+                <versions>1</versions>
+            </abandoned_cart>
+        </resources>
+    </api2>
+</config>
